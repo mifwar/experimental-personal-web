@@ -1,0 +1,36 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-profile{
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.flex-container > button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: transparent;
+    color: #121212;
+    margin: 20px 10px 0px 10px;
+    padding: 10px 10px;
+}
+
+.flex-container > button:hover{
+    background-color: rgba(0, 0, 0, 5%);
+    border-radius: 12px;
+    border-color: transparent;
+    color: #121212;
+    margin: 20px 10px 0px 10px;
+}
+
+.name{
+    font-family: 'Joan', sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+}
