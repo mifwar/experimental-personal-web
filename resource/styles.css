@@ -11,6 +11,14 @@
     border-radius: 50%;
 }
 
+nav{
+    display: inline-block;
+}
+
+nav > a{
+    text-decoration: none;
+}
+
 .button {
     font-family: 'Montserrat', sans-serif;
     background-color: transparent;
